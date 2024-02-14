@@ -1,3 +1,16 @@
 #section1{
+    display: flex;
+}
 
+#section1>div{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+#myFirstImg{
+    border-radius: 43% 57% 45% 55%/43% 30% 70% 57%;
+    display: inline-block;
+    height: 420px;
+    width: 420px;
 }
