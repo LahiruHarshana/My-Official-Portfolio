@@ -15,3 +15,7 @@
     width: 420px;
     vertical-align: middle;
 }
+
+#section1>div:nth-child(1){
+    background-color: #F9F9F9;
+}
