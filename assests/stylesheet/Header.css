@@ -11,7 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto 20px; /* Add some margin below the nav */
+    margin: 0 auto 20px;
 }
 
 nav ul {
@@ -41,7 +41,6 @@ nav a:hover {
 .hero-image {
     width: 100%;
     height: auto;
-    /* Adjust the height as needed */
     background-image: url("../images/Logo.png");
     background-size: cover;
     background-position: center;
