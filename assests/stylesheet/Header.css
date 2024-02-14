@@ -1,10 +1,7 @@
 header {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
 }
 
 nav {
@@ -12,9 +9,12 @@ nav {
     justify-content: space-between;
     width: 80%;
     margin: 0 auto 20px;
+    font-family: Popins, sans-serif;
 }
 
 nav ul {
+    position: relative;
+    left: 900px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -37,18 +37,9 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
-
 .hero-image {
-    width: 100%;
-    height: auto;
-    background-image: url("../images/Logo.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url('../images/Logo.png');
+    width: 10px;
+    height: 10px;
 }
 
-.hero-image img {
-    max-width: 80%;
-}
