@@ -1,8 +1,55 @@
-header{
-    left: 0;
-    padding: 15px 0;
-    position: fixed;
-    right: 0;
-    transition: .5s;
-    z-index: 50;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Set the header to at least the height of the viewport */
+    background-color: #f0f0f0; /* Change this to your desired background color */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 20px; /* Add some margin below the nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    /* Adjust the height as needed */
+    background-image: url("../images/Logo.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 80%;
 }
