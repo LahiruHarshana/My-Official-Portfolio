@@ -111,5 +111,10 @@
 #sec1SocialLink>li{
     display: inline-block;
     margin-right: 14px;
+    list-style-type: none;
+}
+
+#sec1SocialLink>li>a{
+
 }
 
