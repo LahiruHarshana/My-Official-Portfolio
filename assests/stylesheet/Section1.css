@@ -36,7 +36,6 @@
     margin-bottom: 20px;
     flex-direction: column;
     word-wrap: break-word;
-    background: #333333;
     width: 500px;
     position: relative;
     left: 150px;
@@ -60,5 +59,12 @@
     -webkit-text-stroke: 1px #000;
     font-size: 63px;
     line-height: 1.1!important;
+}
+
+#p{
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Popins, sans-serif;
+    text-align: left;
 }
 
