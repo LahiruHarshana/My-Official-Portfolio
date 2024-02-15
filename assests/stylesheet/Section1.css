@@ -29,6 +29,12 @@
     padding: 20px;
 }
 
+#div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 #title{
     font-weight: 900;
     text-transform: capitalize;
@@ -50,17 +56,3 @@
     line-height: 1.1!important;
 }
 
-#p{
-    font-size: 17px;
-    margin-bottom: 20px;
-    margin-top: 0;
-    box-sizing: border-box;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color:#767676!important;
-    font-family: Popins, sans-serif;
-    font-weight: 400;
-}
