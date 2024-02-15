@@ -115,6 +115,28 @@
 }
 
 #sec1SocialLink>li>a{
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    transition: .5s;
+    width: 45px;
+}
 
+.fa-brands{
+    font-family: Font Awesome\ 6 Brands;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    text-rendering: auto;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
 }
 
