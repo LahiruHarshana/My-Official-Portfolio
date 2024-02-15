@@ -61,10 +61,14 @@
     line-height: 1.1!important;
 }
 
-#p{
+#p {
     font-size: 17px;
     line-height: 1.5;
     font-family: Popins, sans-serif;
     text-align: left;
+    word-wrap: break-word;
+    color: #767676 !important;
+    position: relative;
+    left: -5px;
 }
 
