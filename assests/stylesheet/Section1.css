@@ -28,3 +28,14 @@
 #section1>div:nth-child(2)>div{
     padding: 20px;
 }
+
+#title{
+    font-weight: 900;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+    font-size: 63px;
+    line-height: 1.1!important;
+    margin-bottom: 20px;
+    padding: 0;
+}
