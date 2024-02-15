@@ -106,6 +106,9 @@
 
 #sec1SocialLink{
     display: block;
+    position: relative;
+    left: -100px;
+    top: 20px;
 }
 
 #sec1SocialLink>li{
