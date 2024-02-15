@@ -77,7 +77,8 @@
     padding: 0;
     margin: 0;
     position: relative;
-    left: -5px;
+    left: -35px;
+
 }
 
 #liRolls>li{
@@ -99,7 +100,7 @@
     height: 13px;
     left: 0;
     position: absolute;
-    top: 29%;
+    top: 10%;
     width: 13px;
 }
 
