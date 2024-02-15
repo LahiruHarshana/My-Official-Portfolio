@@ -145,3 +145,15 @@
     content: "\f16d";
 }
 
+.fa-github:before{
+    content: "\f113";
+}
+.fa-instagram:before{
+    content: "\f16d";
+}
+.fa-linkedin:before{
+    content: "\f16d";
+}
+.fa-twitter:before{
+    content: "\f16d";
+}
