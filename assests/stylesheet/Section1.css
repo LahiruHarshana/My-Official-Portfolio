@@ -104,4 +104,12 @@
     width: 13px;
 }
 
+#sec1SocialLink{
+    display: block;
+}
+
+#sec1SocialLink>li{
+    display: inline-block;
+    margin-right: 20px;
+}
 
