@@ -78,6 +78,7 @@
     margin: 0;
     position: relative;
     left: -50px;
+    top: 20px;
 
 }
 
@@ -108,7 +109,7 @@
     display: block;
     position: relative;
     left: -100px;
-    top: 20px;
+    top: 45px;
 }
 
 #sec1SocialLink>li{
