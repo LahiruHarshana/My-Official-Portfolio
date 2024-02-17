@@ -30,10 +30,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* Add this line to center horizontally */
 }
+
 #section1>div:nth-child(2)>div{
     padding: 20px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    word-wrap: break-word;
+    font-family: mulish,sans-serif!important;
+    font-size: 16px;
+    line-height: 30px!important;
+    background: #333333;
+    margin: auto; /* Center the div horizontally */
 }
+
 
 #div1{
     display: flex;
@@ -177,4 +189,13 @@
     position: absolute;
     top: 0;
     width: 100px;
+}
+
+.icon_1 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    left: 48px;
 }
