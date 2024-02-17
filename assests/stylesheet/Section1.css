@@ -199,3 +199,13 @@
     width: 100px;
     left: 48px;
 }
+
+.icon_3 {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    position: absolute;
+    left: 80px;
+    top: 350px;
+    width: 100px;
+    display: block;
+}
