@@ -122,6 +122,21 @@
     width: 13px;
 }
 
+#liRolls>li:hover::after{
+    background-color: initial;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    content: "";
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 10%;
+    width: 13px;
+}
+
+
+
+
 #sec1SocialLink{
     display: block;
     position: relative;
@@ -231,5 +246,7 @@
 }
 
 .experience span{
-
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
 }
