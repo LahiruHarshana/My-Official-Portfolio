@@ -124,7 +124,7 @@
 
 #liRolls>li:hover::after{
     background-color: initial;
-    border: 1px solid #0;
+    border: 1px solid #;
     border-radius: 50%;
     content: "";
     height: 13px;
