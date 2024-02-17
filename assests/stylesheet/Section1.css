@@ -151,7 +151,18 @@
     transition: .5s;
     width: 45px;
 }
-
+#sec1SocialLink>li>a:hover{
+    background: #FFFFFF;
+    border: 2px solid #000;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    transition: .5s;
+    width: 45px;
+}
 .fa-brands{
     font-family: Font Awesome\ 6 Brands;
     font-weight: 400;
