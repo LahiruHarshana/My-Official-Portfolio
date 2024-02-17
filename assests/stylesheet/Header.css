@@ -12,7 +12,7 @@ header {
 }
 
 nav {
-    margin-right: 20px; /* Added margin to push navigation to the right */
+    margin-left: 20px; /* Added margin to push navigation to the left */
 }
 
 nav ul {
@@ -38,8 +38,6 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
-
-
 
 .hero-image {
     background-image: url('../images/Logo.png'); /* Corrected image path */
