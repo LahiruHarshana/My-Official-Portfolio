@@ -122,7 +122,7 @@
     width: 13px;
 }
 
-#liRolls>:hoverli::after{
+#liRolls>::hovli::after{
     background-color: initial;
     border: 1px solid #767676;
     border-radius: 50%;
