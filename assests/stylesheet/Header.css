@@ -1,27 +1,25 @@
+/* Header styles */
 header {
+    position: fixed;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Changed from center to space-between */
     min-height: 6vh;
+    width: 100%; /* Added to occupy full width */
+    background-color: #fff; /* Added background color */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100;
-
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto 20px;
-    font-family: Popins, sans-serif;
+    align-items: center; /* Center align items */
+    font-family: 'Popins', sans-serif; /* Corrected font family */
 }
 
 nav ul {
-    position: relative;
-    left: 900px;
     list-style: none;
     padding: 0;
     margin: 0;
-    top: 30px;
 }
 
 nav li {
@@ -41,17 +39,12 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
+
 .hero-image {
-    position: relative;
-    top: -35px;
-    left: 50px;
-    background-image: url('../images/Logo.png');
+    background-image: url('../images/Logo.png'); /* Corrected image path */
     width: 50px;
     height: 50px;
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
