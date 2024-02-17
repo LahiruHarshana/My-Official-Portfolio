@@ -1,5 +1,7 @@
 #section1{
     display: flex;
+    min-height: 100vh;
+
 }
 
 #section1>div{
