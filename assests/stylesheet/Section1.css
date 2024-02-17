@@ -225,4 +225,11 @@
     font-size: 14px;
     padding: 5px 15px;
     right: 0;
+    animation: mover 1s infinite alternate;
+    bottom: 0;
+    position: absolute;
+}
+
+.experience span{
+
 }
