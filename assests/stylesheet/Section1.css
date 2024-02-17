@@ -170,3 +170,11 @@
 .fa-twitter:before{
     content: "\f16d";
 }
+
+.icon_2 {
+    right: 0;
+    animation: mover 1s infinite alternate;
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
