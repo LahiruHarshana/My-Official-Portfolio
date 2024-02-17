@@ -217,3 +217,12 @@
         transform: translateY(-10px);
     }
 }
+
+.experience {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 9px 0 16px rgba(0,0,0,.06);
+    font-size: 14px;
+    padding: 5px 15px;
+    right: 0;
+}
