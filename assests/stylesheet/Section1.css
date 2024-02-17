@@ -122,17 +122,6 @@
     width: 13px;
 }
 
-#liRolls>li::after{
-    background-color: initial;
-    border: 1px solid #767676;
-    border-radius: 50%;
-    content: "";
-    height: 13px;
-    left: 0;
-    position: absolute;
-    top: 10%;
-    width: 13px;
-}
 
 
 
