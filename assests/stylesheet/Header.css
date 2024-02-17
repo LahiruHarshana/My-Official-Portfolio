@@ -1,8 +1,9 @@
 header {
     align-items: center;
     justify-content: center;
-    min-height: 5vh;
+    min-height: 6vh;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
 
 }
 
@@ -42,7 +43,7 @@ nav a:hover {
 }
 .hero-image {
     position: relative;
-    top: -20px;
+    top: -35px;
     left: 50px;
     background-image: url('../images/Logo.png');
     width: 50px;
