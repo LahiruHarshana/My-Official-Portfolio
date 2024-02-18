@@ -50,7 +50,7 @@ nav a:hover {
     display: none;
 }
 
-.mobile_menu >div{
+.mobile_menu > div {
     background-image: url(../images/menu.png);
     background-size: cover;
     cursor: pointer;
@@ -58,11 +58,57 @@ nav a:hover {
     height: 30px;
     width: 30px;
 }
-@media all and (min-width:768px) and (max-width: 1023px) {
-    nav{
+
+.mobile_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile_menu ul li {
+    margin-bottom: 10px;
+}
+
+.mobile_menu ul li a {
+    text-decoration: none;
+    color: #FFFFFF; /* Change the color as needed */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.mobile_menu ul li a:hover {
+    background-color: #f0f0f0;
+    color: #333333/* Change the hover background color as needed */
+}
+
+@media all and (max-width: 1023px) {
+    nav {
         display: none;
     }
-    .mobile_menu{
+    .mobile_menu {
         display: block;
     }
+    .mobile_menu .mobile_nav {
+        background-color: #000;
+        height: 0;
+        left: 0;
+        list-style: none;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        top: 3.8rem;
+        transition: all .5s ease;
+        width: 100%;
+    }
+    .mobile_menu .mobile_nav.active {
+        height: 245px !important;
+        overflow-y: scroll;
+        z-index: 10000;
+    }
 }
+
+
