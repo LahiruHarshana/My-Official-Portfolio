@@ -46,7 +46,12 @@ nav a:hover {
     background-size: cover;
     background-position: center;
 }
+.mobile_menu {
+    display: none;
+}
 
+.mobile_menu >div{
+}
 @media all and (min-width:768px) and (max-width: 1023px) {
     nav{
         display: none;
