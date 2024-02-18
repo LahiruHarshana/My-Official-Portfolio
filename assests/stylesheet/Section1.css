@@ -251,4 +251,4 @@
     font-weight: 700;
 }
 
-@media all and ( min-width:1025px) and
+@media all and (min-width:1025px) and (max-width: 1440px)
