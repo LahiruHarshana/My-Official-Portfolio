@@ -304,7 +304,7 @@
     }
     #div1>ul{
         position: relative;
-        left: 15px;
+        left: 10px;
     }
     #section1>div:nth-child(2){
     display: none;
