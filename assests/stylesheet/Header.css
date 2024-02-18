@@ -47,3 +47,8 @@ nav a:hover {
     background-position: center;
 }
 
+@media all and (min-width:768px) and (max-width: 1023px) {
+    nav{
+        display: none;
+    }
+}
