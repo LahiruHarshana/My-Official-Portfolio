@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 .mobile_menu >div{
-    background-image: url();
+    background-image: url(../images/menu.png);
     background-size: cover;
     cursor: pointer;
     display: inline-block;
