@@ -297,6 +297,15 @@
         position: relative;
         left: 45px;
     }
+
+    #div1>p{
+        position: relative;
+        left: 15px;
+    }
+    #div1>ul{
+        position: relative;
+        left: 15px;
+    }
     #section1>div:nth-child(2){
     display: none;
     }
