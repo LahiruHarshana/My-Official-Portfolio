@@ -255,4 +255,12 @@
 #div1{
         left: -5px;
     }
+
+    #section1>div:nth-child(2){
+        width: 100px;
+    }
+
+    #section1>div:nth-child(2)>div>img:nth-child(1){
+        width: 375px;
+    }
 }
