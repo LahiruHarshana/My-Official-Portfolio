@@ -282,21 +282,25 @@
 @media all and (min-width:320px) and (max-width: 767px){
     #div1{
         left: -5px;
+        width: 300px;
     }
 
+    #section1>div:nth-child(1){
+        margin: 0;
+        padding: 0;
+    }
     #div1>h3{
         position: relative;
-        left: -150px;
+        left: -40px;
     }
     #div1>h3>span{
-        display:block;
         position: relative;
-        left: 50px;
+        left: 45px;
+    }
+    #section1>div:nth-child(2){
+    display: none;
     }
 
-    #section1>div:nth-child(2){
-        width: 100px;
-    }
 
     #section1>div:nth-child(2)>div{
         display: none;
