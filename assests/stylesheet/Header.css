@@ -82,7 +82,7 @@ nav a:hover {
 
 .mobile_menu ul li a:hover {
     background-color: #f0f0f0;
-    color: #333333/* Change the hover background color as needed */
+    color: #333333;
 }
 
 @media all and (max-width: 1023px) {
@@ -91,6 +91,7 @@ nav a:hover {
     }
     .mobile_menu {
         display: block;
+        margin-right: 50px;
     }
     .mobile_menu .mobile_nav {
         background-color: #000;
