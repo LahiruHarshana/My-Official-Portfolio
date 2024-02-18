@@ -313,8 +313,6 @@
     #section1>div:nth-child(2){
     display: none;
     }
-
-
     #section1>div:nth-child(2)>div{
         display: none;
     }
