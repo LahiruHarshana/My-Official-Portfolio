@@ -51,9 +51,18 @@ nav a:hover {
 }
 
 .mobile_menu >div{
+    background-image: url();
+    background-size: cover;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
 }
 @media all and (min-width:768px) and (max-width: 1023px) {
     nav{
         display: none;
+    }
+    .mobile_menu{
+        display: block;
     }
 }
