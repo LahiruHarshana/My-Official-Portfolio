@@ -264,3 +264,17 @@
         width: 375px;
     }
 }
+
+@media all and (min-width:768px) and (max-width: 1023px){
+    #div1{
+        left: -5px;
+    }
+
+    #section1>div:nth-child(2){
+        width: 100px;
+    }
+
+    #section1>div:nth-child(2)>div{
+        display: none;
+    }
+}
