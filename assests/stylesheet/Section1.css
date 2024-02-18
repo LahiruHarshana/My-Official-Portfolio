@@ -308,7 +308,7 @@
     }
     #liRolls>li:nth-child(3){
         position: relative;
-        left: -85px;
+        left: -86.7px;
     }
     #section1>div:nth-child(2){
     display: none;
@@ -319,21 +319,21 @@
 
     #sec1SocialLink>li:nth-child(1){
         position: relative;
-        left: -50px;
+        left: -60px;
     }
 
     #sec1SocialLink>li:nth-child(2){
         position: relative;
-        left: -50px;
+        left: -60px;
     }
     #sec1SocialLink>li:nth-child(3){
         position: relative;
-        left: -50px;
+        left: -60px;
     }
     #sec1SocialLink>li:nth-child(4){
         position: relative;
         top: -49px;
-        left: 85px;
+        left: 75px;
     }
 
     #sec1SocialLink>li:nth-child(5){
