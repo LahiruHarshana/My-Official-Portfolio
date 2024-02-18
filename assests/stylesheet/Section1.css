@@ -316,4 +316,9 @@
     #section1>div:nth-child(2)>div{
         display: none;
     }
+
+    #sec1SocialLink>li>a:nth-child(1){
+        position: relative;
+        left: -50px;
+    }
 }
