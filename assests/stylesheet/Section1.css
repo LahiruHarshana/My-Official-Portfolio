@@ -251,6 +251,8 @@
     font-weight: 700;
 }
 
-@media all and (min-width:1025px) and (max-width: 1440px){
-
+@media all and (min-width:1024px) and (max-width: 1439px){
+#div1{
+        left: -5px;
+    }
 }
