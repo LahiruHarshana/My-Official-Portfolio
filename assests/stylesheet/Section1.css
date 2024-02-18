@@ -317,8 +317,14 @@
         display: none;
     }
 
-    #sec1SocialLink>li>a:nth-child(1){
+    #sec1SocialLink>li:nth-child(1){
         position: relative;
         left: -50px;
     }
+
+    #sec1SocialLink>li:nth-child(2){
+        position: relative;
+        left: -50px;
+    }
+
 }
