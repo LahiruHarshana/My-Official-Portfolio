@@ -284,7 +284,15 @@
         left: -5px;
     }
 
-    #
+    #div1>h3{
+        position: relative;
+        left: -130px;
+    }
+    #div1>h3>span{
+        display:block;
+        position: relative;
+        left: 50px;
+    }
 
     #section1>div:nth-child(2){
         width: 100px;
