@@ -2,15 +2,9 @@
     min-height: 70vh;
     display: flex;
     width: 100vh;
-}
-
-#section2>div{
-    flex: 1;
-    padding: 20px;
-    text-align: center;
     position: relative;
 }
 
-#section2>div:nth-child(1){
+#div1Sec02{
     width: 40%;
 }
