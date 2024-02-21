@@ -1,8 +1,10 @@
 #section2{
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
 }
 
-#mySecondImg{
-    width: 40%;
+#section2>div{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
 }
