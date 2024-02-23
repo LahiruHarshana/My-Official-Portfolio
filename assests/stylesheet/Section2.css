@@ -56,7 +56,6 @@
     -webkit-animation: mover 1s infinite alternate;
     animation: mover 1s infinite alternate;
     background-color: #000;
-    border: 2px solid #000;
 }
 
 .dark_button:hover{
