@@ -58,6 +58,7 @@
     background-color: #000;
     border: 2px solid #000;
     color: #fff;
+    margin-top: 20px;
 }
 
 .dark_button:hover{
