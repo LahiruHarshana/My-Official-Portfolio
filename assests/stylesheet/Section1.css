@@ -59,6 +59,7 @@
 
 }
 #title{
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     text-transform: capitalize;
     -webkit-text-stroke: 1px #000;
@@ -66,7 +67,6 @@
     font-size: 63px;
     line-height: 1.1!important;
     padding: 0;
-    font-family: Popins, sans-serif;
     margin: 0;
 }
 
