@@ -53,6 +53,7 @@
     font-family: Popins, sans-serif;
 }
 .dark_button{
+    -webkit-animation: mover 1s infinite alternate;
 }
 
 .dark_button:hover{
