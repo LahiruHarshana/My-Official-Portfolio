@@ -20,10 +20,11 @@
 }
 
 #div2Sec02{
-    width: 27%;
+    width: 40%;
     position: relative;
     left: 400px;
     top: 100px;
+
 }
 
 #div2Sec02>div:nth-child(1)>span{
