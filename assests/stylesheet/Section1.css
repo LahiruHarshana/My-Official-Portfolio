@@ -104,10 +104,11 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
-    margin-right: 19px;
+    margin-right: 14px;
     padding-left: 19px;
     position: relative;
     margin-bottom: 10px;
+    font-family: mulish, sans-serif;
 }
 
 #liRolls>li::after{
