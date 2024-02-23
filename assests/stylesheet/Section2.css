@@ -55,7 +55,6 @@
 .dark_button{
     -webkit-animation: mover 1s infinite alternate;
     animation: mover 1s infinite alternate;
-    background-color: #000;
 }
 
 .dark_button:hover{
