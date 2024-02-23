@@ -25,6 +25,14 @@
     top: 100px;
 }
 
-#div2Sec02>span{
+#div2Sec02>div:nth-child(1)>span{
+    background-color: #f9f9f9;
+    color: #767676;
+    display: inline-block;
+    font-family: Popins, sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 8px 19px;
+    font-size: 16px;
 }
 
