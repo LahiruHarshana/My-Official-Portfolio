@@ -4,6 +4,7 @@
     width: 100%;
     position: relative;
     background: #FFFFFF;
+    flex-direction: row;
 }
 
 #div1Sec02{
@@ -15,5 +16,15 @@
 
 #mySecondImgImg{
     width: 100%;
+}
+
+#div2Sec02{
+    width: 27%;
+    position: relative;
+    left: 400px;
+    top: 100px;
+}
+
+#div2Sec02>span{
 }
 
