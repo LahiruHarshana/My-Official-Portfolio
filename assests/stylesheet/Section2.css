@@ -65,7 +65,7 @@
     text-decoration: none;
     transition: all .3s ease;
     cursor: pointer;
-    font-family: Popins, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .dark_button:hover{
