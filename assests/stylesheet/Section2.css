@@ -63,6 +63,7 @@
     padding: 13px 30px;
     text-decoration: none;
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .dark_button:hover{
