@@ -63,5 +63,9 @@
     text-decoration: none;
     transition: all .3s ease;
     cursor: pointer;
+}
 
+.dark_button:hover{
+    background-color: #fff;
+    color: #000;
 }
