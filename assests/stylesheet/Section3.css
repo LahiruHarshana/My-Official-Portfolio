@@ -1,2 +1,6 @@
-#section3{
+#section3>div {
+    width: 100px;
+    height: 100px;
+    background: #333333;
+    margin: 100px;
 }
