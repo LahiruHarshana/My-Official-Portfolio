@@ -20,3 +20,8 @@
     background-image: url('../images/briefing.png');
     background-size: cover;
 }
+
+#section3>div:nth-child(2) {
+    background-image: url('../images/briefing.png');
+    background-size: cover;
+}
