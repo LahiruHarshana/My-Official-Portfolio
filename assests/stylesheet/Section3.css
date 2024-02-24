@@ -26,4 +26,9 @@
     background-size: cover;
 }
 
+#section3>div:nth-child(3) {
+    background-image: url('../images/rocket.png');
+    background-size: cover;
+}
+
 /*#0000005C*/
