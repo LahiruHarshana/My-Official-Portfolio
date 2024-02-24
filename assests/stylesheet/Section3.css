@@ -42,3 +42,22 @@
     position: relative;
     top: -50px;
 }
+
+#section3>div:nth-child(1)>p {
+    font-size: 13px;
+    position:relative;
+    left: -20px;
+    top: -70px;
+    width: 150px;
+    color: #767676;
+    font-family: mulish, sans-serif;
+}
+#section3>div:nth-child(2)>p {
+    font-size: 13px;
+    position:relative;
+    left: 10px;
+    top: -70px;
+    width: 150px;
+    color: #767676;
+    font-family: mulish, sans-serif;
+}
