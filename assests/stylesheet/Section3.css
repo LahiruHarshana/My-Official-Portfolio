@@ -13,5 +13,9 @@
 #section3>div {
     width: 150px;
     height: 150px;
-    background: #333333;
+    background: #FFFFFF;
+}
+
+#section3>div:nth-child(1) {
+    background: url("");
 }
