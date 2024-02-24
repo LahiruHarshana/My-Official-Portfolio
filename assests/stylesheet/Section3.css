@@ -30,5 +30,9 @@
     background-image: url('../images/review.png');
     background-size: cover;
 }
-
+#section3>div:nth-child(4) {
+    background-image: url('../images/trophy.png');
+    background-size: cover;
+}
+#
 /*#0000005C*/
