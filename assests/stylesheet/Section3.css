@@ -107,12 +107,12 @@
 
     #section3>div:nth-child(3) {
         position: relative;
-        left: -200px;
+        left: -250px;
         top: 150px;
     }
     #section3>div:nth-child(4) {
         position: relative;
-        left: -200px;
+        left: -100px;
         top: 150px;
     }
     #section3>div:nth-child(2) {
