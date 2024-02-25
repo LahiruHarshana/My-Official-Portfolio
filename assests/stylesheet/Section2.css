@@ -67,7 +67,6 @@
     cursor: pointer;
     font-family: "Poppins", sans-serif;
 }
-
 .dark_button:hover{
     background-color: #fff;
     color: #000;
