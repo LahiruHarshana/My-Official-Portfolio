@@ -59,5 +59,16 @@
     width: 70px;
     height: 70px;
 }
-
+.container > div:nth-child(3)>div{
+    background-image: url('../images/img_2.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.container > div:nth-child(4)>div{
+    background-image: url('../images/img_3.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
 
