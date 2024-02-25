@@ -101,4 +101,8 @@
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     line-height: 30px;
+    position: relative;
+
+    top: 120px;
+
 }
