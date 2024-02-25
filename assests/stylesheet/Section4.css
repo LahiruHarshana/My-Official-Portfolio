@@ -100,9 +100,12 @@
     font-size: 18px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    line-height: 30px;
+    line-height: 1.4!important;
     position: relative;
-
+    left: 100px;
     top: 120px;
-
+}
+.container > div:nth-child(1)>h3{
+    left: 1265x;
+    top: 120px;
 }
