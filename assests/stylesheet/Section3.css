@@ -96,8 +96,6 @@
     }
 }
 @media all and (min-width:768px) and (max-width: 1023px) {
-    #section3 {
-    }
 
     #section3>div {
         width: 70px;
