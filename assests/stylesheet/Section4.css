@@ -48,7 +48,13 @@
 }
 
 .container > div:nth-child(1)>div{
-    background-image: url('../images/briefing.png');
+    background-image: url('../images/img.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.container > div:nth-child(2)>div{
+    background-image: url('../images/img_1.png');
     background-size: cover;
     width: 70px;
     height: 70px;
