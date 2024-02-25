@@ -68,6 +68,18 @@
 .container > div:nth-child(4)>div{
     background-image: url('../images/img_3.jpg');
     background-size: cover;
+    width: 80px;
+    height: 70px;
+}
+.container > div:nth-child(5)>div{
+    background-image: url('../images/img_4.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.container > div:nth-child(6)>div{
+    background-image: url('../images/img_5.png');
+    background-size: cover;
     width: 70px;
     height: 70px;
 }
