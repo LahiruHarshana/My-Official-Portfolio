@@ -15,8 +15,15 @@
     margin-top: 300px;
 }
 #section4>div{
-    width: 27%;
+    width: 80%;
     position: relative;
     left: 170px;
     top: 100px;
+}
+#section4>div>h3{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 45px;
 }
