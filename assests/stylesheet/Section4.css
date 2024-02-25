@@ -84,7 +84,9 @@
     height: 70px;
 }
 
-.container > div:nth-child(6)>div{
-
+.container > div>div{
+    position: relative;
+    top: 20px;
+    left: 60px;
 }
 
