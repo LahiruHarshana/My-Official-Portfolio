@@ -97,7 +97,6 @@
 }
 @media all and (min-width:768px) and (max-width: 1023px) {
     #section3 {
-        margin-top: 100px;
     }
 
     #section3>div {
@@ -122,5 +121,9 @@
     #section3>div:nth-child(1) {
         position: relative;
         left: 100px;
+    }
+
+    #section3{
+        height: 70vh;
     }
 }
