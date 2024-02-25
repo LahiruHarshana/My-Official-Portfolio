@@ -36,7 +36,8 @@
     gap: 10px;
     width: 80%;
     position: relative;
-    left: 0px;
+    left: 170px;
+    top: 150px;
 }
 
 .container > div {
@@ -44,3 +45,4 @@
     height: 70px;
 
 }
+
