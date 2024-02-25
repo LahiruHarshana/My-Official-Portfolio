@@ -6,6 +6,7 @@
     font-weight: 400;
     padding: 8px 19px;
     font-size: 16px;
+    position: relative;
 }
 #section4{
     position: relative;
@@ -33,14 +34,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
+    width: 80%;
+    position: relative;
+    left: 0px;
 }
 
 .container > div {
     background-color: red;
     height: 70px;
-    width: 100px;
+
 }
