@@ -13,5 +13,10 @@
     flex-direction: row;
     line-height: 30px;
     margin-top: 300px;
-    left: 160px;
+}
+#section4>div{
+    width: 27%;
+    position: relative;
+    left: 170px;
+    top: 100px;
 }
