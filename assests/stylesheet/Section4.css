@@ -84,9 +84,10 @@
     height: 70px;
 }
 .container > div>div{
-    position: relative;
-    top: 20px;
-    left: 37%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
@@ -94,7 +95,6 @@
 font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    letter-spacing: 3px;
     position: relative;
     top: -50px;
     left: -10px;
