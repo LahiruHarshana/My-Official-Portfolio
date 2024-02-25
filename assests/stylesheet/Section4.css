@@ -50,26 +50,26 @@
 .container > div:nth-child(1)>div{
     background-image: url('../images/img.png');
     background-size: cover;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 .container > div:nth-child(2)>div{
     background-image: url('../images/img_1.png');
     background-size: cover;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 .container > div:nth-child(3)>div{
     background-image: url('../images/img_2.png');
     background-size: cover;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
 }
 .container > div:nth-child(4)>div{
     background-image: url('../images/img_3.jpg');
     background-size: cover;
-    width: 80px;
-    height: 70px;
+    width: 55px;
+    height: 50px;
 }
 .container > div:nth-child(5)>div{
     background-image: url('../images/img_4.png');
@@ -86,6 +86,15 @@
 
 .container > div{
     position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center text horizontally */
+    background-color: #FFFFFF;
+    height: 300px;
+
+
 }
 .container > div>div{
     position: absolute;
@@ -93,6 +102,7 @@
     right: 0;
     margin: auto;
     top: 30px;
+
 }
 
 
@@ -101,11 +111,4 @@
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     line-height: 1.4!important;
-    position: relative;
-    left: 100px;
-    top: 120px;
-}
-.container > div:nth-child(1)>h3{
-    left: 126px;
-    top: 120px;
 }
