@@ -102,3 +102,14 @@
     font-family: "Poppins", sans-serif;
     line-height: 1.4!important;
 }
+
+
+.container > div>p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+    font-family: mulish, sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    width: 80%;
+}
