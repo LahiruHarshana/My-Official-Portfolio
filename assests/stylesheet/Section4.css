@@ -90,11 +90,9 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    text-align: center; /* Center text horizontally */
+    text-align: center;
     background-color: #FFFFFF;
     height: 300px;
-
-
 }
 .container > div>div{
     position: absolute;
