@@ -42,7 +42,7 @@
 
 .sec6Container>div{
     background-color: #FFFFFF;
-    height: 350px;
+    height: 300px;
 }
 
 .sec6Container>div:nth-child(1){
@@ -51,6 +51,10 @@
 }
 .sec6Container>div:nth-child(2){
     background-image: url('../images/railwayProject.png');
+    background-size: cover;
+}
+.sec6Container>div:nth-child(3){
+    background-image: url('../images/newPF.png');
     background-size: cover;
 }
 .sec6Container>div:nth-child(3){
