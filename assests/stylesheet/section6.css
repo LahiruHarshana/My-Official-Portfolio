@@ -57,26 +57,22 @@
 .sec6Container > div:nth-child(2) {
     background-image: url('../images/railwayProject.png');
     background-size: cover;
-
 }
 
 .sec6Container > div:nth-child(3),
 .sec6Container > div:nth-child(4) {
     background-image: url('../images/newPF.png');
     background-size: cover;
-
 }
 
 .sec6Container > div:nth-child(5) {
     background-image: url('../images/ThogaKade.png');
     background-size: cover;
-
 }
 
 .sec6Container > div:nth-child(6) {
     background-image: url('../images/HostelMng.png');
     background-size: cover;
-
 }
 
 .sec6Container > div:before,
@@ -87,30 +83,47 @@
     width: 50%;
     height: 100%;
     opacity: 0;
-    transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sec6Container > div:before {
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, .6));
-    left: -100%; /* Initial position */
-    transform: translateX(-100%) skewX(-25deg);
-    z-index: 2;
+    background: rgba(255, 255, 255, 0.5); /* Initial background color */
+    left: 0; /* Initial position */
+    animation: seaUrchin 3s ease forwards;
+    background-image: url('your_image_url_here');
+    background-position: center; /* Image position */
 }
 
 .sec6Container > div:hover:before {
-    left: 0; /* Transition to this position */
+    animation: none; /* Disable animation on hover */
     opacity: 1;
-    transform: translateX(0) skewX(-25deg);
 }
 
 .sec6Container > div:after {
-    background-color: hsla(0, 0%, 100%, .6);
-    right: -100%; /* Initial position */
-    transform: translateX(100%);
+    background-color: rgba(255, 255, 255, 0.5); /* Initial background color */
+    right: 0; /* Initial position */
+    animation: seaUrchin 3s ease forwards;
+    background-image: url('../images/Logo.png');
+    background-position: center; /* Image position */
 }
 
 .sec6Container > div:hover:after {
-    right: 0; /* Transition to this position */
+    animation: none; /* Disable animation on hover */
     opacity: 1;
-    transform: translateX(0);
+}
+
+@keyframes seaUrchin {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
 }
