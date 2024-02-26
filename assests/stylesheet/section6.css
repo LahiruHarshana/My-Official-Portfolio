@@ -91,7 +91,6 @@
     background: rgba(255, 255, 255, 0.5); /* Initial background color */
     left: 0; /* Initial position */
     animation: seaUrchin 3s ease forwards;
-    background-image: url('your_image_url_here');
     background-position: center; /* Image position */
 }
 
