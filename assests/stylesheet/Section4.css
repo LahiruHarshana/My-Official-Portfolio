@@ -163,20 +163,20 @@
 
     #section4{
         position: relative;
-        top: 200px;
+        top: 300px;
         height: 1200px;
     }
 
     #section4>div:nth-child(1){
         width: 80%;
         position: relative;
-        left: 100px;
+        left: 80px;
     }
 
     #section4>.container {
         width: 80%;
         position: relative;
-        left: 100px;
+        left: 80px;
         top: 150px;
     }
 
@@ -193,7 +193,6 @@
     #section4>.container > div:nth-child(4)>div {
         width: 40px;
         height: 30px;
-
     }
 
     #section4>.container > div>h3{
