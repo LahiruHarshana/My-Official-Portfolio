@@ -86,7 +86,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .sec6Container > div:before {
     background: rgba(255, 255, 255, 0.5);
     left: 0; /* Initial position */
