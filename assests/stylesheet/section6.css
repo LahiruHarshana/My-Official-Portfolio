@@ -66,3 +66,7 @@
     background-image: url('../images/ThogaKade.png');
     background-size: cover;
 }
+.sec6Container>div:nth-child(5){
+    background-image: url('../images/HostelMng.png');
+    background-size: cover;
+}
