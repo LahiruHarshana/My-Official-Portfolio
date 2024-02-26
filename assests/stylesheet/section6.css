@@ -108,7 +108,7 @@
 }
 
 .sec6Container > div:hover:after {
-    animation: none; /* Disable animation on hover */
+    animation: none;
     opacity: 1;
 }
 
