@@ -115,6 +115,7 @@
     #section4 {
         position: relative;
         top: 200px;
+        height: 900px;
     }
 
     #section4>div:nth-child(1){
@@ -153,5 +154,6 @@
     #section4>.container > div>p{
         font-size: 12px;
     }
-
+}
+@media all and (min-width:768px) and (max-width: 1023px){
 }
