@@ -95,7 +95,7 @@
 }
 
 .sec6Container > div:hover:before {
-    animation: none; /* Disable animation on hove*/
+    animation: none;
     opacity: 1;
 }
 
