@@ -1,11 +1,12 @@
-#section5{
+#section5 {
     position: relative;
     width: 100%;
+    top: 400px; /* Adjust the top position as needed */
 }
-#section5>div{
-    display: flex;
-    background-image: url("../images/section5Img.jpg");
-    background-size: cover;
-    width: 100%;
 
+#section5 .image-container {
+    width: 100%;
+    background-image: url("../images/section5Img.jpg");
+    height: 533px;
 }
+
