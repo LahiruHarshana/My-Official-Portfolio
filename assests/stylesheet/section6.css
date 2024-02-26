@@ -1,6 +1,6 @@
 #section6{
     position: relative;
-    top: 500px;
+    top: 400px;
     height: 2100px;
     background: #F9F9F9;
 }
@@ -27,4 +27,19 @@
     padding: 8px 19px;
     font-size: 16px;
     position: relative;
+}
+
+.sec6Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    width: 80%;
+    position: relative;
+    left: 170px;
+    top: 150px;
+}
+
+
+.sec6Container{
 }
