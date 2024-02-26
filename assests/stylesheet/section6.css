@@ -63,6 +63,8 @@
 .sec6Container > div:nth-child(3),
 .sec6Container > div:nth-child(4) {
     background-image: url('../images/newPF.png');
+    background-size: cover;
+
 }
 
 .sec6Container > div:nth-child(5) {
