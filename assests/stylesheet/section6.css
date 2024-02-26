@@ -16,3 +16,14 @@
     font-family: "Poppins", sans-serif;
     line-height: 45px;
 }
+
+#sec6Tittle>span{
+    background-color: #ECECEC;
+    color: #767676;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 8px 19px;
+    font-size: 16px;
+    position: relative;
+}
