@@ -53,3 +53,7 @@
     background-image: url('../images/railwayProject.png');
     background-size: cover;
 }
+.sec6Container>div:nth-child(3){
+    background-image: url('../images/newPF.png');
+    background-size: cover;
+}
