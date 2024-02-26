@@ -91,7 +91,7 @@
     background: rgba(255, 255, 255, 0.5); /* Initial background color */
     left: 0; /* Initial position */
     animation: seaUrchin 3s ease forwards;
-    background-position: center; /* Image position */
+    background-position: center;
 }
 
 .sec6Container > div:hover:before {
