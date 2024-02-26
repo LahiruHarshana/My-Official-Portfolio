@@ -1,16 +1,18 @@
-#section6{
+#section6 {
     position: relative;
     top: 400px;
     height: 2100px;
     background: #F9F9F9;
 }
-#sec6Tittle{
+
+#sec6Tittle {
     width: 80%;
     position: relative;
     left: 170px;
     top: 100px;
 }
-#sec6Tittle>h3{
+
+#sec6Tittle > h3 {
     font-size: 35px;
     margin: 0;
     font-weight: 700;
@@ -18,7 +20,7 @@
     line-height: 45px;
 }
 
-#sec6Tittle>span{
+#sec6Tittle > span {
     background-color: #ECECEC;
     color: #767676;
     display: inline-block;
@@ -29,7 +31,7 @@
     position: relative;
 }
 
-.sec6Container{
+.sec6Container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -40,33 +42,68 @@
     top: 150px;
 }
 
-.sec6Container>div{
+.sec6Container > div {
     background-color: #FFFFFF;
     height: 300px;
+    position: relative;
+    overflow: hidden;
 }
 
-.sec6Container>div:nth-child(1){
+.sec6Container > div:nth-child(1) {
     background-image: url('../images/MyPortFolio.png');
     background-size: cover;
 }
-.sec6Container>div:nth-child(2){
+
+.sec6Container > div:nth-child(2) {
     background-image: url('../images/railwayProject.png');
-    background-size: cover;
-}
-.sec6Container>div:nth-child(3){
-    background-image: url('../images/newPF.png');
-    background-size: cover;
-}
-.sec6Container>div:nth-child(3){
-    background-image: url('../images/newPF.png');
-    background-size: cover;
+
 }
 
-.sec6Container>div:nth-child(4){
-    background-image: url('../images/ThogaKade.png');
-    background-size: cover;
+.sec6Container > div:nth-child(3),
+.sec6Container > div:nth-child(4) {
+    background-image: url('../images/newPF.png');
 }
-.sec6Container>div:nth-child(5){
+
+.sec6Container > div:nth-child(5) {
+    background-image: url('../images/ThogaKade.png');
+}
+
+.sec6Container > div:nth-child(6) {
     background-image: url('../images/HostelMng.png');
-    background-size: cover;
+}
+
+.sec6Container > div:before,
+.sec6Container > div:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.sec6Container > div:before {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, .6));
+    left: -100%; /* Initial position */
+    transform: translateX(-100%) skewX(-25deg);
+    z-index: 2;
+}
+
+.sec6Container > div:hover:before {
+    left: 0; /* Transition to this position */
+    opacity: 1;
+    transform: translateX(0) skewX(-25deg);
+}
+
+.sec6Container > div:after {
+    background-color: hsla(0, 0%, 100%, .6);
+    right: -100%; /* Initial position */
+    transform: translateX(100%);
+}
+
+.sec6Container > div:hover:after {
+    right: 0; /* Transition to this position */
+    opacity: 1;
+    transform: translateX(0);
 }
