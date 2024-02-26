@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: mulish, sans-serif;
 }
 
 #section5 .image-front>h3{
@@ -35,4 +36,18 @@
     color: #FFFFFF;
     display: block;
     font-size: 20px;
+}
+
+.section5Btn{
+    animation: mover 1s infinite alternate;
+    background-color: #FFFFFF;
+    border: 2px solid #000;
+    color: #000000;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
