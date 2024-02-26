@@ -130,4 +130,22 @@
         top: 150px;
     }
 
+    #section4>.container > div{
+        height: 250px;
+    }
+
+    #section4>.container > div>div {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    #section4>.container > div>h3{
+        font-size: 14px;
+    }
+
+    #section4>.container > div>p{
+        font-size: 10px;
+    }
+
 }
