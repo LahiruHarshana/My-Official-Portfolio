@@ -56,6 +56,7 @@
 
 .sec6Container > div:nth-child(2) {
     background-image: url('../images/railwayProject.png');
+    background-size: cover;
 
 }
 
