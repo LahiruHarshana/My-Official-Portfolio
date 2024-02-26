@@ -117,9 +117,17 @@
         top: 200px;
     }
 
-    #section4>div {
+    #section4>div:nth-child(1){
         width: 80%;
         position: relative;
+        left: 100px;
+    }
+
+    #section4>.container {
+        width: 80%;
+        position: relative;
+        left: 100px;
+        top: 150px;
     }
 
 }
