@@ -130,7 +130,7 @@
 @media all and (min-width:1024px) and (max-width: 1439px){
     #section6 {
         position: relative;
-        top: 200px;
+        top: 400px;
         height: 900px;
     }
 
@@ -150,5 +150,4 @@
     #section6>.sec6Container > div {
         height: 250px;
     }
-
 }
