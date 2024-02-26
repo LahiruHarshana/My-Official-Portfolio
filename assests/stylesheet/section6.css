@@ -179,8 +179,4 @@
     #section6>.sec6Container > div{
         height: 250px;
     }
-
-    #section4>.container > div>p{
-        font-size: 12px;
-    }
 }
