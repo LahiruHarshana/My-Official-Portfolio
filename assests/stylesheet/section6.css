@@ -46,7 +46,6 @@
 }
 
 .sec6Container>div:nth-child(1){
-    border: 1px solid #e1ebf7;
     background-image: url('../images/MyPortFolio.png');
     background-size: cover;
 }
