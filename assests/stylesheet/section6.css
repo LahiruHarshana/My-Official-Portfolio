@@ -100,7 +100,7 @@
 }
 
 .sec6Container > div:after {
-    background-color: rgba(255, 255, 255, 0.5); /* Initial backgo*/
+    background-color: rgba(255, 255, 255, 0.5); /* Initial backg*/
     right: 0;
     animation: seaUrchin 3s ease forwards;
     background-image: url('../images/Logo.png');
