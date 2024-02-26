@@ -1,7 +1,11 @@
 #section5{
+    position: relative;
     width: 100%;
 }
-
 #section5>div{
+    display: flex;
+    background-image: url("../images/section5Img.jpg");
+    background-size: cover;
     width: 100%;
+
 }
