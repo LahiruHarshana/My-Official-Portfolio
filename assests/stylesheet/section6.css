@@ -1,9 +1,18 @@
 #section6{
-
+    position: relative;
+    top: 500px;
+    height: 2100px;
 }
 #sec6Tittle{
     width: 80%;
     position: relative;
     left: 170px;
     top: 100px;
+}
+#sec6Tittle>h3{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 45px;
 }
