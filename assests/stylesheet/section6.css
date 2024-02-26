@@ -210,11 +210,6 @@
         height: 250px;
     }
 
-    #section4>.container > div>div {
-        width: 30px;
-        height: 30px;
-
-    }
 
     #section4>.container > div:nth-child(4)>div {
         width: 40px;
