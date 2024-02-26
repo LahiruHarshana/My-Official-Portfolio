@@ -1,3 +1,7 @@
 #section5{
+    width: 100%;
+}
 
+#section5>div{
+    width: 100%;
 }
