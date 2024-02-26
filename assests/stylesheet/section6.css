@@ -127,3 +127,28 @@
         opacity: 0;
     }
 }
+@media all and (min-width:1024px) and (max-width: 1439px){
+    #section6 {
+        position: relative;
+        top: 200px;
+        height: 900px;
+    }
+
+    #sec6Tittle {
+        width: 80%;
+        position: relative;
+        left: 100px;
+    }
+
+    #section6>.sec6Container {
+        width: 80%;
+        position: relative;
+        left: 100px;
+        top: 150px;
+    }
+
+    #section6>.sec6Container > div {
+        height: 250px;
+    }
+
+}
