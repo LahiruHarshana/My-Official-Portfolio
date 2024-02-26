@@ -105,6 +105,7 @@
     animation: seaUrchin 3s ease forwards;
     background-image: url('../images/Logo.png');
     background-position: center;
+    background-size: 50%;
 }
 
 .sec6Container > div:hover:after {
