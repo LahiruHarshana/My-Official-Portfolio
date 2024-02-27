@@ -13,7 +13,6 @@
     height: 80%;
     overflow: hidden;
     position: relative;
-    border: 1px solid #000;
 }
 
 .swiper-wrapper {
@@ -52,13 +51,12 @@
 }
 
 .subDiv{
-
     display: flex;
+    border: 1px solid #e1ebf7;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 30%;
     height: 70%;
     position: relative;
-    background: rgba(0, 0, 0, 0.5);
 }
