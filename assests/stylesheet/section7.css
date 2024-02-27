@@ -33,6 +33,7 @@
 }
 
 .swiper-slide:nth-child(1) {
+    justify-content: space-around;
     display: flex;
     flex-direction: row;
     background: #0a3622;
@@ -49,7 +50,7 @@
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 30%;
+    height: 70%;
     position: relative;
     background: rgba(0, 0, 0, 0.5);
 }
