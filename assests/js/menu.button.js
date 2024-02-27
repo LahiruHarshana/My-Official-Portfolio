@@ -20,11 +20,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-    var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper", {
+    direction: 'horizontal', // Ensure swiper slides from left to right
+    loop: true, // Enable continuous loop
     pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true,
-},
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
 });
 
 
