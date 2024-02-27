@@ -108,3 +108,8 @@
     font-family:mulish, sans-serif;
     color: #767676;
 }
+
+.subDiv>div{
+    width: 200px;
+    height: 70px;
+}
