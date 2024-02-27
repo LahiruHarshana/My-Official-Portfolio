@@ -69,12 +69,12 @@
 
     &::before {
         transform: translateZ(4rem);
-        border: 5px solid #f96b59;
+        border: 5px solid #000000;
     }
 
     &::after {
         transform: translateZ(-4rem);
-        background: #f96b59;
+        background: #000000;
         box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
     }
 
