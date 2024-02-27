@@ -91,6 +91,18 @@
     left: 0; /* Initial position */
     animation: seaUrchin 3s ease forwards;
     background-position: center;
+    content: "Your text here"; /* Add your text */
+    text-align: center; /* Center the text */
+    color: #333; /* Text color */
+    font-size: 24px; /* Font size */
+    font-family: "Arial", sans-serif; /* Font family */
+    line-height: 1.5; /* Line height */
+    padding: 20px; /* Padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+    z-index: 3; /* Ensure text is above the background */
+    pointer-events: none; /* Text should not be interactive */
+    overflow: hidden; /* Hide overflow */
+    white-space: nowrap;
 }
 
 .sec6Container > div:hover:before {
