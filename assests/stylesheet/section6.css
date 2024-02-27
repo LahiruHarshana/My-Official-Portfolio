@@ -98,7 +98,7 @@
     font-family: "Arial", sans-serif; /* Font family */
     line-height: 1.5; /* Line height */
     padding: 20px; /* Padding */
-    box-sizing: border-box; /* Include padding in width calculation */
+    box-sizing: border-box;
     z-index: 3;
     pointer-events: none;
     overflow: hidden;
