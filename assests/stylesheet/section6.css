@@ -87,7 +87,12 @@
     }
 }
 
+.invisible{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
 
+}
 
 /*.sec6Container > div:nth-child(1) {*/
 /*    background-image: url('../images/MyPortFolio.png');*/
