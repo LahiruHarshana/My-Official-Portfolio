@@ -8,11 +8,18 @@
     }
 }
 
+#section7>div>span {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
 .swiper {
     width: 80%;
     height: 80%;
     overflow: hidden;
     position: relative;
+    top: 500px;
 }
 
 .swiper-wrapper {
@@ -23,7 +30,7 @@
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
