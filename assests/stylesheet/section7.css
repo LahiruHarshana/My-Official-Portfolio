@@ -78,7 +78,6 @@
     display: flex;
     border: 1px solid #e1ebf7;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 30%;
     height: 70%;
@@ -103,13 +102,15 @@
 .subDiv>div>p{
     position: relative;
     top: -95px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     font-family:mulish, sans-serif;
     color: #767676;
 }
 
 .subDiv>div{
+    position: relative;
+    top: 70px;
     width: 200px;
     height: 70px;
 }
