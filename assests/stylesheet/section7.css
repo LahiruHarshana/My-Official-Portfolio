@@ -33,12 +33,23 @@
 }
 
 .swiper-slide:nth-child(1) {
+    display: flex;
+    flex-direction: row;
     background: #0a3622;
     width: 500px;
     height: 500px;
     object-fit: cover;
+
 }
 
 .subDiv{
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
 }
