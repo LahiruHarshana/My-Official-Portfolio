@@ -92,7 +92,7 @@
     animation: seaUrchin 3s ease forwards;
     background-position: center;
     content: "Your text here"; /* Add your text */
-    text-align: center; /* Center the text */
+    text-align: center;
     color: #333;
     font-size: 24px;
     font-family: "Arial", sans-serif;
