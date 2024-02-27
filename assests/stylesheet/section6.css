@@ -101,7 +101,7 @@
     box-sizing: border-box; /* Include padding in width calculation */
     z-index: 3; /* Ensure text is above the background */
     pointer-events: none; /* Text should not be interactive */
-    overflow: hidden; /* Hide overflow */
+    overflow: hidden;
     white-space: nowrap;
 }
 
