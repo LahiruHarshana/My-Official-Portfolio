@@ -97,21 +97,30 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-.invisible a {
+.invisible >div{
     position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    color: white;
-    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.invisible a:hover {
-    opacity: 0.7;
+.invisible >div >a>i{
+    color: #FFFFFF;
+    font-size: 30px;
 }
 
-
-
+.invisible >h3{
+    position: absolute;
+    width: 300px;
+    top: 10%;
+    font-family: "Popins", sans-serif;
+    letter-spacing: 1px;
+    left: 55%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+}
 @keyframes seaUrchin {
     0% {
         transform: scale(0);
