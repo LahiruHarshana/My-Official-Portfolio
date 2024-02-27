@@ -200,6 +200,7 @@
 
     #section6>.sec6Container > div {
         height: 250px;
+        width: 250px;
     }
 }
 @media all and (min-width:768px) and (max-width: 1023px){
