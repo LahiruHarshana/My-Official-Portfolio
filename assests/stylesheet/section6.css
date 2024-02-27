@@ -97,7 +97,7 @@
     font-size: 24px; /* Font size */
     font-family: "Arial", sans-serif; /* Font family */
     line-height: 1.5; /* Line height */
-    padding: 20px; /* Padding */
+    padding: 20px;
     box-sizing: border-box;
     z-index: 3;
     pointer-events: none;
