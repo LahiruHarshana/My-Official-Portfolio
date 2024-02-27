@@ -51,6 +51,12 @@
 .sec6Container>div:nth-child(3) {
     background-image: url("../images/MyPortFolio.png");
 }
+.sec6Container>div:nth-child(4) {
+    background-image: url("../images/MyPortFolio.png");
+}
+.sec6Container>div:nth-child(5) {
+    background-image: url("../images/newPF.png");
+}
 .sec6Container > div {
     width: 300px;
     height: 250px;
@@ -109,7 +115,7 @@
 .invisible >div{
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
