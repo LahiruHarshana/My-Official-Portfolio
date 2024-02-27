@@ -9,10 +9,27 @@
 }
 
 #section7>div>span {
-    font-size: 40px;
+    background-color: #ECECEC;
+    color: #767676;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 8px 19px;
+    font-size: 16px;
+}
+
+#section7>div>h3 {
+    font-size: 35px;
+    margin: 0;
     font-weight: 700;
-    color: #000000;
-    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 45px;
+}
+
+#section7>div:nth-child(1){
+    position: relative;
+    top: 500px;
+    left: 150px;
 }
 .swiper {
     width: 80%;
