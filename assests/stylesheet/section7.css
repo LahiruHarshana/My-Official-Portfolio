@@ -70,7 +70,6 @@
     width: 500px;
     height: 500px;
     object-fit: cover;
-
 }
 
 .swiper-slide:nth-child(2) {
@@ -167,6 +166,37 @@
     #section7{
         position: relative;
         top: 100px;
+    }
+    #section7>div:nth-child(1){
+        width: 500px;
+        left: 100px;
+    }
+}
+@media all and (min-width:768px) and (max-width: 1023px){
+.subDiv>div{
+        position: relative;
+        top: 70px;
+        left: 10px;
+        width: 170px;
+        height: 70px;
+    }
+    .subDiv>div>h3{
+        font-size: 14px;
+    }
+
+    .subDiv>div>p{
+        font-size: 12px;
+    }
+    .sec7Img{
+        width: 40px;
+        height: 40px;
+        left: -80px;
+        top: -30px;
+    }
+
+    #section7{
+        position: relative;
+        top: 200px;
     }
     #section7>div:nth-child(1){
         width: 500px;
