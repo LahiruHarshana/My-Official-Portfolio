@@ -8,6 +8,9 @@
     40% {
         transform: translateX(-120%);
     }
+    60% {
+        transform: translateX(-180%);
+    }
 }
 
 #section7>div>span {
