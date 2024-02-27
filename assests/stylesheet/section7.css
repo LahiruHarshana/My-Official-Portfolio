@@ -41,7 +41,7 @@
 
 .swiper-wrapper {
     display: flex;
-    animation: slideToLeft 10s infinite; /* Adjust the duration and timing function as needed */
+    /*animation: slideToLeft 10s infinite; !* Adjust the duration and timing function as needed *!*/
 }
 
 .swiper-slide {
@@ -83,4 +83,9 @@
     width: 30%;
     height: 70%;
     position: relative;
+}
+
+.sec7Img{
+    border-radius: 100%;
+    display: inline;
 }
