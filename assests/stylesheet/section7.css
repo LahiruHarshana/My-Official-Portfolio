@@ -88,4 +88,11 @@
 .sec7Img{
     border-radius: 100%;
     display: inline;
+    position: relative;
+    left: -120px;
+}
+
+.subDiv>div>h3{
+    position: relative;
+    top: -80px;
 }
