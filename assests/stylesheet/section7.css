@@ -3,16 +3,13 @@
         transform: translateX(0);
     }
     20% {
-        transform: translateX(-30%);
+        transform: translateX(-35%);
     }
     40% {
-        transform: translateX(-60%);
+        transform: translateX(-70%);
     }
     60% {
-        transform: translateX(-90%);
-    }
-    80% {
-        transform: translateX(-120%);
+        transform: translateX(-95%);
     }
 }
 
@@ -49,7 +46,7 @@
 
 .swiper-wrapper {
     display: flex;
-    animation: slideToLeft 6s infinite; /* Adjust the duration and timing function as needed */
+    animation: slideToLeft 8s infinite;
 }
 
 .swiper-slide {
