@@ -241,16 +241,17 @@
     #section6>.sec6Container {
         width: 70%;
         position: relative;
-        left: 25px;
+        left: 30px;
         top: 150px;
     }
 
     #section6>.sec6Container > div{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
     .invisible >h3{
         font-size: 10px;
-        left: 70%;
+        width: 150px;
+        left: 50%;
     }
 }
