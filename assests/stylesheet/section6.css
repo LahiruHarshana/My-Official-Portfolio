@@ -95,7 +95,7 @@
     text-align: center; /* Center the text */
     color: #333; /* Text color */
     font-size: 24px; /* Font size */
-    font-family: "Arial", sans-serif; /* Font family */
+    font-family: "Arial", sans-serif;
     line-height: 1.5;
     padding: 20px;
     box-sizing: border-box;
