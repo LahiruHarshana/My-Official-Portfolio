@@ -228,6 +228,7 @@
     }
 
     #section6>.sec6Container > div{
+        width: 270px;
         height: 250px;
     }
 }
