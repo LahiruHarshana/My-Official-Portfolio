@@ -91,7 +91,7 @@
     left: 0; /* Initial position */
     animation: seaUrchin 3s ease forwards;
     background-position: center;
-    content: "Your text here"; /* Add your text */
+    content: "Your text here";
     text-align: center;
     color: #333;
     font-size: 24px;
