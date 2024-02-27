@@ -88,7 +88,7 @@
 }
 .sec6Container > div:before {
     background: rgba(255, 255, 255, 0.5);
-    left: 0; /* Initial position */
+    left: 0;
     animation: seaUrchin 3s ease forwards;
     background-position: center;
     content: "Your text here";
