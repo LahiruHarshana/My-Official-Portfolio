@@ -90,9 +90,21 @@
     display: inline;
     position: relative;
     left: -120px;
+    top: -10px;
 }
 
 .subDiv>div>h3{
     position: relative;
     top: -80px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Popins", sans-serif;
+}
+.subDiv>div>p{
+    position: relative;
+    top: -95px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:mulish, sans-serif;
+    color: #767676;
 }
