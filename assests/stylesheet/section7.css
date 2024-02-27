@@ -6,10 +6,13 @@
         transform: translateX(-35%);
     }
     40% {
-        transform: translateX(-70%);
+        transform: translateX(-67%);
     }
     60% {
-        transform: translateX(-95%);
+        transform: translateX(-100%);
+    }
+    80% {
+        transform: translateX(-135%);
     }
 }
 
