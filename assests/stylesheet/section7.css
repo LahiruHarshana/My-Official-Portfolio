@@ -157,4 +157,20 @@
     .subDiv>div>p{
         font-size: 12px;
     }
+    .sec7Img{
+        width: 40px;
+        height: 40px;
+        left: -90px;
+        top: -30px;
+    }
+
+
+    #section7{
+        position: relative;
+        top: 100px;
+    }
+    #section7>div:nth-child(1){
+        width: 500px;
+        left: 100px;
+    }
 }
