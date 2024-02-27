@@ -98,6 +98,8 @@
     position: relative;
     left: -120px;
     top: -10px;
+    width: 50px;
+    height: 50px;
 }
 
 .subDiv>div>h3{
@@ -145,7 +147,14 @@
         position: relative;
         top: 70px;
         left: 10px;
-        width: 200px;
+        width: 170px;
         height: 70px;
+    }
+    .subDiv>div>h3{
+        font-size: 14px;
+    }
+
+    .subDiv>div>p{
+        font-size: 12px;
     }
 }
