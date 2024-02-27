@@ -140,3 +140,12 @@
     color: #767676;
     font-size: 16px;
 }
+@media all and (min-width:1024px) and (max-width: 1439px){
+    .subDiv>div{
+        position: relative;
+        top: 70px;
+        left: 10px;
+        width: 200px;
+        height: 70px;
+    }
+}
