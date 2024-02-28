@@ -295,4 +295,21 @@
         width: 170px;
         height: 70px;
     }
+
+    .subDiv>div>h3{
+        font-size: 14px;
+    }
+
+    .subDiv>div>p{
+        font-size: 12px;
+    }
+
+    .subDiv>p{
+        position: relative;
+        top: 10px;
+        width: 80%;
+        font-family: mulish, sans-serif;
+        color: #767676;
+        font-size: 11px;
+    }
 }
