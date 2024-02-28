@@ -175,7 +175,7 @@
     }
 }
 @media all and (min-width:768px) and (max-width: 1023px){
-.subDiv>div{
+    .subDiv>div{
         position: relative;
         top: 70px;
         left: 10px;
