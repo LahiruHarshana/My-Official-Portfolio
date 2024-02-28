@@ -32,12 +32,14 @@
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     line-height: 45px;
+    width: 500px;
 }
 
 #section7>div:nth-child(1){
     position: relative;
     top: 500px;
     left: 150px;
+    width: 500px;
 }
 .swiper {
     width: 80%;
@@ -207,11 +209,11 @@
 @media all and (min-width:320px) and (max-width: 767px) {
     #section7 > div:nth-child(1) {
         width: 200px;
-        left: 0;
+        left: 30px;
     }
 
-    .swiper-slide:nth-child(1) {
-        width: 3000px !important; /* Corrected syntax: !important follows without any intervening characters */
-        height: 300px;
+    #section7 > div:nth-child(1)>h3{
+        width: 200px;
+        left: 10px;
     }
 }
