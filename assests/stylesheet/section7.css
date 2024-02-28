@@ -282,4 +282,17 @@
         position: relative;
         top: 500px;
     }
+
+    .subDiv>div>img{
+        position: relative;
+        left: -90px;
+    }
+
+    .subDiv>div{
+        position: relative;
+        top: 30px;
+        left: 10px;
+        width: 170px;
+        height: 70px;
+    }
 }
